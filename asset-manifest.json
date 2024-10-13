@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/stitch/static/css/main.dae214a0.css",
+    "main.css": "/stitch/static/css/main.e180a12f.css",
     "main.js": "/stitch/static/js/main.76f6dcba.js",
     "static/js/453.7e1d7cb0.chunk.js": "/stitch/static/js/453.7e1d7cb0.chunk.js",
     "static/media/stitch-3840x2160.jpg": "/stitch/static/media/stitch-3840x2160.d4e8fc0bbf6f8ebb04a8.jpg",
     "static/media/Stitch-Digital-Wallpaper-3.png": "/stitch/static/media/Stitch-Digital-Wallpaper-3.84a3039644bb97d061d9.png",
     "static/media/stitch.gif": "/stitch/static/media/stitch.260751664b1647369413.gif",
     "index.html": "/stitch/index.html",
-    "main.dae214a0.css.map": "/stitch/static/css/main.dae214a0.css.map",
+    "main.e180a12f.css.map": "/stitch/static/css/main.e180a12f.css.map",
     "main.76f6dcba.js.map": "/stitch/static/js/main.76f6dcba.js.map",
     "453.7e1d7cb0.chunk.js.map": "/stitch/static/js/453.7e1d7cb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dae214a0.css",
+    "static/css/main.e180a12f.css",
     "static/js/main.76f6dcba.js"
   ]
 }
