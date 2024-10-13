@@ -74,12 +74,12 @@ h1.title {
 
 @media (max-width: 1400px) {
   h2.wlc {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     max-width: 100%;
   }
   h1.title {
-    font-size: 20px;
+    font-size: 21px;
     font-weight: 900;
     max-width: 100%;
   }
