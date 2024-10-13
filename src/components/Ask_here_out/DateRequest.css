@@ -1,0 +1,84 @@
+.date-request {
+  text-align: center;
+  margin-top: 50px;
+  position: relative;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  /* Center the GIF */
+}
+.date-request h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+@media (max-width: 768px) {
+  .date-request h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .date-request h1 {
+    font-size: 1.2rem;
+  }
+}
+.date-request .date-gif {
+  width: 100px;
+  height: auto;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+@media (max-width: 480px) {
+  .date-request .date-gif {
+    width: 80px;
+  }
+}
+.date-request .buttons {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 300px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+.date-request .buttons button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  position: absolute;
+}
+.date-request .buttons .yes {
+  background-color: #28a745;
+  color: white;
+  top: 0;
+  left: 0;
+}
+.date-request .buttons .yes:hover {
+  background-color: #218838;
+}
+.date-request .buttons .no {
+  background-color: #dc3545;
+  color: white;
+  transition: top 0.5s ease, left 0.5s ease;
+  top: 0;
+  left: 50%;
+}
+.date-request .buttons .no:hover {
+  background-color: #c82333;
+}
+.date-request p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #007bff;
+}
+@media (max-width: 768px) {
+  .date-request p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 480px) {
+  .date-request p {
+    font-size: 0.9rem;
+  }
+}/*# sourceMappingURL=DateRequest.css.map */

@@ -1,0 +1,89 @@
+.date-request {
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+  
+      @media (max-width: 768px) {
+        font-size: 1.5rem;
+      }
+  
+      @media (max-width: 480px) {
+        font-size: 1.2rem;
+      }
+    }
+  
+    /* Center the GIF */
+    .date-gif {
+      width: 100px;
+      height: auto;
+      margin: 0 auto 20px auto;
+      display: block; // Ensures it's a block element so that margin works properly
+      
+      @media (max-width: 480px) {
+        width: 80px; // Adjust size for mobile
+      }
+    }
+  
+    .buttons {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      max-width: 300px;
+      height: 60px;
+      margin-bottom: 20px;
+  
+      button {
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        position: absolute;
+      }
+  
+      .yes {
+        background-color: #28a745;
+        color: white;
+        top: 0;
+        left: 0;
+  
+        &:hover {
+          background-color: #218838;
+        }
+      }
+  
+      .no {
+        background-color: #dc3545;
+        color: white;
+        transition: top 0.5s ease, left 0.5s ease;
+        top: 0;
+        left: 50%;
+  
+        &:hover {
+          background-color: #c82333;
+        }
+      }
+    }
+  
+    p {
+      margin-top: 20px;
+      font-size: 1.2rem;
+      color: #007bff;
+  
+      @media (max-width: 768px) {
+        font-size: 1rem;
+      }
+  
+      @media (max-width: 480px) {
+        font-size: 0.9rem;
+      }
+    }
+  }
+  
